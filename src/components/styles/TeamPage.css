@@ -1,0 +1,176 @@
+.team-page {
+    font-family: Arial, sans-serif;
+}
+
+.page-header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subheading {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px; /* Added margin-bottom */
+}
+
+p.subheading{
+    font-size: 25px;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 10px;
+    padding: 0 20px; 
+}
+
+.card {
+    width: calc(20% - 20px);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card:first-child {
+    margin-left: 0; /* Reset margin for the first card */
+}
+
+.mentor-container {
+    text-align: center;
+    margin-top: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.mentor-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px; /* Adjusted gap */
+    margin-top: 20px;
+}
+
+.mentor {
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 150px; /* Increased width */
+    height: 150px; /* Increased height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mentor:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.mentor img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Your existing CSS styles */
+
+.mentor-container {
+    text-align: left;
+    /* margin-top: 50px; */
+    width: 60%;
+    margin: auto auto; /* Center horizontally */
+}
+
+.mentor-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 30px; /* Adjusted gap */
+    margin-top: 20px;
+}
+
+.mentor {
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 150px; /* Increased width */
+    height: 150px; /* Increased height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mentor img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.mentor button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.mentor button:hover {
+    background-color: #0056b3;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px; /* Added margin-bottom */
+    background: linear-gradient(180deg, #6a00ff, #ff00e6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* For the main heading */
+.page-header h1 {
+    background: linear-gradient(180deg, #6a00ff, #ff00e6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* For the subheading */
+.subheading {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: linear-gradient(180deg, #6a00ff, #ff00e6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
